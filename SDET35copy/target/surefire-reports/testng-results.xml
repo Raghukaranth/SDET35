@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="32313" started-at="2022-06-17T23:15:00Z" finished-at="2022-06-17T23:15:32Z">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateContactsAndVerifyTest.createContactAndVerifyTest()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="createContactAndVerifyTest" class="com.crm.contacts.CreateContactsAndVerifyTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Surefire test" duration-ms="32313" started-at="2022-06-17T23:15:00Z" finished-at="2022-06-17T23:15:32Z">
+      <class name="com.crm.contacts.CreateContactsAndVerifyTest">
+        <test-method status="PASS" signature="dbConfig()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="dbConfig" is-config="true" duration-ms="23" started-at="2022-06-17T23:15:00Z" finished-at="2022-06-17T23:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="launchingBrowser" is-config="true" duration-ms="5583" started-at="2022-06-17T23:15:00Z" finished-at="2022-06-17T23:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="loginToApp" is-config="true" duration-ms="4392" started-at="2022-06-17T23:15:05Z" finished-at="2022-06-17T23:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createContactAndVerifyTest()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="createContactAndVerifyTest" duration-ms="19347" started-at="2022-06-17T23:15:10Z" finished-at="2022-06-17T23:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactAndVerifyTest -->
+        <test-method status="PASS" signature="logoutFromTheApp()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="logoutFromTheApp" is-config="true" duration-ms="2143" started-at="2022-06-17T23:15:29Z" finished-at="2022-06-17T23:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromTheApp -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="closeTheBrowser" is-config="true" duration-ms="798" started-at="2022-06-17T23:15:31Z" finished-at="2022-06-17T23:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method status="PASS" signature="closeDB()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@396a51ab]" name="closeDB" is-config="true" duration-ms="1" started-at="2022-06-17T23:15:32Z" finished-at="2022-06-17T23:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.contacts.CreateContactsAndVerifyTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
