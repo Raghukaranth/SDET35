@@ -15,6 +15,7 @@ import com.crm.objectRepository.HomePage;
 public class CreateContactsAndVerifyTest extends BaseClass{
 	@Test(groups = {"smokeTest"})
 	public void createContactAndVerifyTest() throws Throwable {
+		//hi hello
 		//get the random number for the script
 		int ranNum = jLib.getRandomNumber();
 		
