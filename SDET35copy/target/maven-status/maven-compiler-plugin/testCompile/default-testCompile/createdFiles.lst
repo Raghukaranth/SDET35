@@ -1,9 +1,0 @@
-com\crm\orginization\CreateOrginizationAndVerifyTest.class
-com\crm\contacts\CreateContactsWithOrginizationAndVerifyTest.class
-com\crm\purchase\CreatePurchaseOrderSelectBillingAddress26Test.class
-com\crm\purchase\CreatePurchaseOrderSelectSupportGroup24Test.class
-com\crm\purchase\CreatePurchaseOrderSelectTeamSelling25Test.class
-com\crm\orginization\CreateOrganizationTest.class
-com\crm\contacts\CreateContactsAndVerifyTest.class
-com\crm\purchase\CreatePurchaseOrderSelectMarketingGroup23Test.class
-com\crm\orginization\CreateOrginizationWithIndustryAndVerifyTest.class
