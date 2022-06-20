@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-18T04:21:11 IST" name="Default suite" finished-at="2022-06-18T04:21:50 IST" duration-ms="39046">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateContactsAndVerifyTest.createContactAndVerifyTest()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" name="createContactAndVerifyTest" class="com.crm.contacts.CreateContactsAndVerifyTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-06-18T04:21:11 IST" name="Default test" finished-at="2022-06-18T04:21:50 IST" duration-ms="39046">
+      <class name="com.crm.contacts.CreateContactsAndVerifyTest">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" started-at="2022-06-18T04:21:11 IST" name="dbConfig" finished-at="2022-06-18T04:21:11 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" started-at="2022-06-18T04:21:11 IST" name="launchingBrowser" finished-at="2022-06-18T04:21:19 IST" duration-ms="7831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" started-at="2022-06-18T04:21:19 IST" name="loginToApp" finished-at="2022-06-18T04:21:27 IST" duration-ms="7777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createContactAndVerifyTest()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" started-at="2022-06-18T04:21:27 IST" name="createContactAndVerifyTest" finished-at="2022-06-18T04:21:48 IST" duration-ms="20882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactAndVerifyTest -->
+        <test-method is-config="true" signature="logoutFromTheApp()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" started-at="2022-06-18T04:21:48 IST" name="logoutFromTheApp" finished-at="2022-06-18T04:21:50 IST" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromTheApp -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" started-at="2022-06-18T04:21:50 IST" name="closeTheBrowser" finished-at="2022-06-18T04:21:50 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.contacts.CreateContactsAndVerifyTest@7fee8714]" started-at="2022-06-18T04:21:50 IST" name="closeDB" finished-at="2022-06-18T04:21:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.contacts.CreateContactsAndVerifyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
