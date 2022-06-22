@@ -16,6 +16,7 @@ public class CreateContactsAndVerifyTest extends BaseClass{
 	@Test(groups = {"smokeTest"})
 	public void createContactAndVerifyTest() throws Throwable {
 		
+		//this is to find the random number
 		int ranNum = jLib.getRandomNumber();
 		
 		//find and click on contacts
