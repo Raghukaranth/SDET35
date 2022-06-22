@@ -18,7 +18,7 @@ public class CreateContactsAndVerifyTest extends BaseClass{
 		//get the random number for the script
 		int ranNum = jLib.getRandomNumber();
 		
-		//find and click on contacts
+		//find and click on contacts in homepage
 		HomePage homePage = new HomePage(driver);
 		homePage.clickOnContactsLnk();
 		
