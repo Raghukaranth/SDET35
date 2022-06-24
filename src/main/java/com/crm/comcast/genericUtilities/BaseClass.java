@@ -40,10 +40,11 @@ public class BaseClass {
 //	@Parameters("BROWSER")
 	@BeforeClass(groups = {"smokeTest", "regressionTest"})
 	public void launchingBrowser() throws Throwable {
-		String BROWSER = System.getProperty("browser");
-		String URL = System.getProperty("url");
-//		String BROWSER = fLib.getPropertiesForVtiger("browser");
-//		String URL = fLib.getPropertiesForVtiger("url");
+
+//		String BROWSER = System.getProperty("browser");
+//		String URL = System.getProperty("url");
+		String BROWSER = fLib.getPropertiesForVtiger("browser");
+		String URL = fLib.getPropertiesForVtiger("url");
 		
 		if(BROWSER.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
