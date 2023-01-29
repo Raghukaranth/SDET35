@@ -11,6 +11,7 @@ import java.util.Properties;
  */
 public class FileUtility {
 	public FileInputStream fprop;
+	public static Map<String, String> propMap = new HashMap<String, String>();
 	/**
 	 * used to get common data from property file for vtiger based on key which you have specified as argument
 	 * @param Key
@@ -18,11 +19,17 @@ public class FileUtility {
 	 * @throws Throwable
 	 */
 	public String getPropertiesForVtiger(String Key) throws Throwable {
-		fprop = new FileInputStream(IPathConstants.vtigerFilePath);
 		Properties prop = new Properties();
-		prop.load(fprop);
-		String value = prop.getProperty(Key);
-		return value;
+		prop.load(new FileInputStream(IPathConstants.vtigerFilePath));
+		
+		Enumeration keys = prop.propertyNames();
+		while(keys.hasMoreElements()) {
+			String key = (String)keys.nextElement();
+			String value = prop.getProperty(key);
+			propMap.put(key, value);
+		}
+		
+		return propMap.get(Key);
 	}
 	
 	/**
